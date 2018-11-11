@@ -20,13 +20,31 @@
   <meta property="og:title" content="Chrysalis, a grasshopper model">
   <meta property="og:description" content="Description of the page">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://e-lefebvre.github.io/grasshopper-chrysalis/img/place-louis-pradel.png">
-  <meta property="og:image:secure_url" content="https://e-lefebvre.github.io/grasshopper-chrysalis/img/place-louis-pradel.png>
+  <meta property="og:image" content="https://e-lefebvre.github.io/grasshopper-chrysalis/img/bg-default.png">
+  <meta property="og:image:secure_url" content="https://e-lefebvre.github.io/grasshopper-chrysalis/img/bg-default.png">
   <meta property="og:image:type" content="image/jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
   <!-- Web fonts and Web Icons -->
   <link rel="stylesheet" href="fonts/opensans/stylesheet.css">
   <link rel="stylesheet" href="fonts/montserrat/stylesheet.css">
@@ -117,8 +135,8 @@
         <ul class="navbar-nav" id="qmenu">
           <li class="nav-item" data-menuanchor="home">
             <a href="#home">
-              <span class="icon">H</span>
-              <span class="txt">Home</span>
+              <span class="icon">A</span>
+              <span class="txt">Accueil</span>
             </a>
           </li>
           <li class="nav-item" data-menuanchor="about">
@@ -151,7 +169,7 @@
   <!-- BEGIN OF page cover -->
   <div class="page-cover" id="parallax-cover">
     <!-- Cover Background -->
-    <div data-depth="0.2" class="cover-bg bg-img" data-image-src="img/place-louis-pradel.png"></div>
+    <div data-depth="0.2" class="cover-bg bg-img" data-image-src="img/bg-default.png"></div>
 
     <!-- Transluscent mask as filter -->
     <div class="cover-bg-mask bg-color" data-bgcolor="rgba(0,0,0,0.2)"></div>
@@ -329,27 +347,21 @@
 
       <div class="slide">
         <div class="slide-wrapper">
-          <div class="item-wrapper">
-            
+          <div class="item-wrapper">            
             <div class="legend section-content">
               <div class="row">
                 <div class="col-12 col-lg-6">
                   <div class="title-desc">
-                    <h3 class="display-decor display-title">Jardin Bio</h3>
-                    <h4>Garden</h4>
-                    <p class="desc-decor">Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas a sem ultrices neque vehicula fermentum a sit amet
-                      nulla.</p>
+                    <h3 class="display-decor display-title">Création des extrémités</h3>
+                    <p class="desc-decor">
+                      Un point est placé en (0, 0, 0) et un autre en (x, 0, 0) 
+                      avec x une coordonnée variable afin de pouvoir choisir la 
+                      portée de l’arc.
+                    </p>
                   </div>
-                  <!-- Action button -->
-                  <div class="btns-action anim-5">
-                    <a class="btn btn-arrow btn-primary" href="item.html#project_url">
-                      <span class="icon">
-                        <span class="arrow-right"></span>
-                      </span>
-                      <span class="text">View Project</span>
-                    </a>
-                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <img src="img/steps/01_Extremites.png" width="100%" />
                 </div>
               </div>
             </div>
@@ -360,29 +372,110 @@
       <div class="slide">
         <div class="slide-wrapper">
           <div class="item-wrapper">
-            <div class="illustr">
-              <div class="img bg-img" data-image-src="img/items/img-sample3.jpg"></div>
-            </div>
             <div class="legend section-content">
               <div class="row">
                 <div class="col-12 col-lg-6">
                   <div class="title-desc">
-                    <h3 class="display-decor display-title">Africa Meuble</h3>
-                    <h4>Furniture Design</h4>
-                    <p class="desc-decor">Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas a sem ultrices neque vehicula fermentum a sit amet
-                      nulla.</p>
-                  </div>
-                  <!-- Action button -->
-                  <div class="btns-action anim-5">
-                    <a class="btn btn-arrow btn-primary" href="item.html#project_url">
-                      <span class="icon">
-                        <span class="arrow-right"></span>
-                      </span>
-                      <span class="text">View Project</span>
-                    </a>
+                    <h3 class="display-decor display-title">Création chaînettes</h3>
+                    <p class="desc-decor">
+                        On crée une chaînette en précisant les extrémités, 
+                        la longueur et le sens de gravité. Ces deux derniers 
+                        paramètres sont variables pour permettre la modification 
+                        de la flèche de l’arc et son inclinaison par rapport au 
+                        vecteur x. On crée les autres chaînettes avec le même 
+                        processus et on borne le paramètre du sens de gravité 
+                        pour que les arcs ne se chevauchent et ne s’inversent pas.
+                    </p>
                   </div>
                 </div>
+                <div class="col-12 col-lg-6">
+                  <a href="./img/steps/02_Chainettes.png" target="_blank">
+                    <img src="./img/steps/02_Chainettes.png" width="100%" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+          <div class="slide-wrapper">
+            <div class="item-wrapper">
+              <div class="legend section-content">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <div class="title-desc">
+                      <h3 class="display-decor display-title">Division des arcs</h3>
+                      <p class="desc-decor">
+                          Pour lier les arcs entre eux par des fils on commence 
+                          par diviser les arcs afin d’obtenir n points le long 
+                          de la courbe. 
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6" style="background-color: white">
+                    <a href="./img/steps/03_Divisions.png" target="_blank">
+                      <img src="./img/steps/03_Divisions.png" width="100%" />
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+          <div class="slide-wrapper">
+            <div class="item-wrapper">
+              <div class="legend section-content">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <div class="title-desc">
+                      <h3 class="display-decor display-title">Création des liens</h3>
+                      <p class="desc-decor">
+                          Les 4  listes de points obtenues sont ensuite décaléees 
+                          de façon croissante d’un arc à l’autre pour que les 
+                          liens tracés  soient diagonaux. Puis des arcs sont 
+                          dessinés entre les chaînettes 1 et 2, 2 et 3 et 3 et 4 
+                          à partir des listes de points. Le vecteur appliqué à 
+                          l’outil arc permet de régler la courbure des liens.<br/>
+                          On fait ensuite les liens dans l’autre diagonale de 
+                          la même façon. Ce coup ci les listes de points sont 
+                          décalées négativement et l’ordre des listes est inversé.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6" style="background-color: white">
+                    <a href="./img/steps/04_Liens.png" target="_blank">
+                      <img src="./img/steps/04_Liens.png" width="100%" />
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+          <div class="slide-wrapper">
+            <div class="item-wrapper">
+              <div class="legend section-content">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <div class="title-desc">
+                      <h3 class="display-decor display-title">Ajout des épaisseurs</h3>
+                      <p class="desc-decor">
+                          On applique l’outil cylindre sur l’ensemble des arcs 
+                          pour paramétrer l’épaisseur des chaînettes et des liens.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6" style="background-color: white">
+                    <a href="./img/steps/05_Pipe.png" target="_blank">
+                      <img src="./img/steps/05_Pipe.png" width="100%" />
+                    </a>
+                  </div>
               </div>
             </div>
           </div>
@@ -424,98 +517,11 @@
     </div>
     <!-- End of projects / gallery slider section -->
 
-    <!-- Begin of description with performance section -->
-    <div class="section section-description fp-auto-height-responsive " data-section="about-performance">
-
-      <!-- Begin of section wrapper -->
-      <div class="section-wrapper fullwidth fullheight center-lg-v with-margin padding-wrapper-topbottom">
-
-        <!-- content -->
-        <div class="section-content fullwidth anim">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-left center-v">
-              <div class="wrapper">
-                <!-- title and description -->
-                <div class="title-desc">
-                  <h2 class="display-4 display-title anim-1">Paramétrique
-                    <span class="stroke-off"></span>
-                  </h2>
-                  <p class="anim-2 desc-decor">
-                  </p>
-                </div>
-
-                <!-- Action button -->
-                <div class="btns-action anim-3">
-                  <a class="btn btn-arrow btn-primary" href="#contact">
-                    <span class="icon">
-                      <span class="arrow-right"></span>
-                    </span>
-                    <span class="text">Start a Project</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- icons or analytics -->
-          <div class="num-grid">
-            <div class="row anim-list">
-              <div class="col-6 col-lg-3 item">
-                <div class="num-wrapper">
-                  <div class="num">1200</div>
-                  <div class="desc">Customers</div>
-                </div>
-              </div>
-              <div class="col-6 col-lg-3 item">
-                <div class="num-wrapper">
-                  <div class="num">100+</div>
-                  <div class="desc">Partners</div>
-                </div>
-              </div>
-              <div class="col-6 col-lg-3 item">
-                <div class="num-wrapper">
-                  <div class="num">20+</div>
-                  <div class="desc">Products</div>
-                </div>
-              </div>
-              <div class="col-6 col-lg-3 item">
-                <div class="num-wrapper">
-                  <div class="num">2400</div>
-                  <div class="desc">Working Hours</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- Arrows scroll down/up -->
-        <footer class="section-footer scrolldown">
-          <a class="up">
-            <span class="btn btn-arrow">
-              <span class="icon">
-                <span class="arrow-up"></span>
-              </span>
-            </span>
-          </a>
-          <a class="down">
-            <span class="btn btn-arrow">
-              <span class="icon">
-                <span class="arrow-down"></span>
-              </span>
-            </span>
-          </a>
-        </footer>
-      </div>
-      <!-- End of section wrapper -->
-    </div>
-    <!-- End of description with performance section -->
+   
 
     <!-- Begin of contact section -->
     <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact">
-      <div class="section-cover-tier right fit bg-img" data-image-src="./img/items/img-sample2-square.jpg">
-      </div>
-
+      
       <!-- begin of information slide -->
       <div class="slide" id="information" data-anchor="information">
         <!-- Begin of slide section wrapper -->
@@ -524,7 +530,7 @@
           <div class="section-content fullwidth anim text-left">
             <!-- main content -->
             <div class="row justify-content-between">
-              <div class="col-12 col-md-8 col-lg-6  text-left center-v">
+              <div class="col-12 col-md-8 col-lg-6 text-left center-v" style="margin-left: 5em">
                 <div class="f-wrapper">
                   <!-- title and description -->
                   <div class="title-desc">
@@ -538,6 +544,8 @@
               </div>
 
               <div class="d-none d-md-block col-12 col-md-4 col-lg-4">
+                <img width="100%" src="./img/gif/range.gif"/>
+                <img width="100%" src="./img/gif/links.gif"/>
               </div>
             </div>
 
@@ -548,116 +556,14 @@
 
         <!-- begin of slide footer -->
         <div class="slide-footer section-footer footer-register">
-          <form class="send_email_form form-container form-container-transparent form-container-white"
-          method="post" action="http://demo.highhay.com/brainux/ajaxserver/serverfile.php">
-            <div class="form-desc">
-              <!-- Optioanl text here -->
-              <!-- <p class="invite">Register email to newsletter :</p> -->
-            </div>
-            <div class="form-input">
-              <div class="form-group form-success-gone">
-                <!-- <label for="reg-email">Email</label> -->
-                <div class="f-input">
-                  <input id="reg-email" name="email" class="form-control form-control-outline form-control-white"
-                  type="email" required placeholder="your@email.address" data-validation-type="email"
-                  />
-                  <div class="btns-action">
-                    <button id="submit-email" name="submit_email" class="btn btn-arrow btn-primary form-success-gone">
-                      <span class="icon">
-                        <i class="ion ion-checkmark"></i>
-                      </span>
-                      <span class="text">Register to newsletter</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group mb-0">
-                <div>
-                  <p class="email-ok invisible form-text-feedback form-success-visible">Your email has been registred, thank you.</p>
-                </div>
-              </div>
-            </div>
-          </form>
+          <div class="form-desc">
+            <span class="text">
+              Un projet de <a href="#">É. Lefebvre</a> & <a href="https://www.youtube.com/watch?v=jJReZBY0gUw">C. Ciprelli</a>
+            </span>
+          </div>          
         </div>
         <!-- end of slide footer -->
       </div>
-
-
-      <!-- begin of message slide -->
-      <div class="slide" id="message" data-anchor="message">
-        <!-- Begin of slide section wrapper -->
-        <div class="section-wrapper fullwidth fullheight center-lg-v with-margin padding-wrapper-topbottom">
-          <!-- main content -->
-          <div class="row  justify-content-between">
-            <div class="col-12 col-md-12 col-lg-7 col-xl-6">
-              <!-- content -->
-              <div class="section-content fullwidth anim text-left">
-                <!-- title and description -->
-                <div class="title-desc">
-                  <div class="anim-2">
-                    <h2 class="display-4 display-title display-decor">Email Us</h2>
-                    <p class="desc-decor">For questions about our company and products found on our stores.
-                      Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis
-                      dui. Fusce in urna sem.</p>
-                  </div>
-                </div>
-                <!-- begin of message container -->
-                <div class="message-form">
-                  <div class="form-container form-container-card">
-                    <!-- Message form container -->
-                    <form class="send_message_form message form" method="post" action="http://demo.highhay.com/brainux/ajaxserver/serverfile.php"
-                    id="message_form">
-                      <div class="form-group name">
-                        <input id="mes-name" name="name" type="text" placeholder="Name" class="form-control form-control-outline thick form-success-clean"
-                        required>
-                      </div>
-                      <div class="form-group email">
-                        <input id="mes-email" type="email" placeholder="Email" name="email" class="form-control form-control-outline thick form-success-clean"
-                        required>
-                      </div>
-                      <div class="form-group no-border">
-                        <textarea id="mes-text" placeholder="Message ..." name="message" class="form-control form-control-outline thick form-success-clean"
-                        required></textarea>
-
-                        <div>
-                          <p class="message-ok invisible form-text-feedback form-success-visible">Your message has been sent, thank you.</p>
-                        </div>
-                      </div>
-
-                      <div class="btns text-left d-flex justify-content-between">
-
-                        <a class="btn btn-arrow" href="#contact/information">
-                          <span class="icon">
-                            <span class="arrow-left"></span>
-                          </span>
-                          <span class="text">Information</span>
-                        </a>
-                        <button id="submit-message" class="btn btn-outline email_b" name="submit_message">
-                          <span class="txt">Send Now</span>
-                          <span class="arrow-icon"></span>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <!-- end of message container -->
-
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-            </div>
-          </div>
-
-
-          <!-- aside content -->
-          <div class="section-aside aside-bottom anim small-relative">
-
-          </div>
-        </div>
-        <!-- End of slide section wrapper -->
-      </div>
-
 
 
 
