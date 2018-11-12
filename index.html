@@ -244,9 +244,9 @@
         <div class="section-content anim">
           <div class="row  justify-content-between">
             <div class="col-12 col-lg-7">
-                <div class="sketchfab-embed-wrapper" style="height: 100%">
-                  <iframe width="100%" height="100%" src="https://sketchfab.com/models/81136fbe83104ee9b178bc552ce81d11/embed?autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                </div>
+              <div class="sketchfab-embed-wrapper" style="height: 100%">
+                <iframe width="100%" height="100%" src="https://sketchfab.com/models/81136fbe83104ee9b178bc552ce81d11/embed?autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+              </div>
             </div>
 
             <div class="col-12 col-lg-4 text-left center-v">
@@ -270,6 +270,13 @@
                     <span class="text">Étapes</span>
                     <span class="icon">
                       <span class="arrow-right"></span>
+                    </span>
+                  </a>
+
+                  <a class="btn btn-outline btn-primary" href="./img/pinterest.jpg" target="_blank">
+                    <span class="text">Inspiration</span>
+                    <span class="icon">
+                      <i class="icon fab fa-pinterest"></i>
                     </span>
                   </a>
                 </div>
@@ -351,7 +358,8 @@
                       Un point est placé en (0, 0, 0) et un autre en (x, 0, 0) 
                       avec x une coordonnée variable afin de pouvoir choisir la 
                       portée de l’arc.
-                    </p>
+                    </p> 
+                    
                   </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -386,6 +394,9 @@
                   <a href="./img/steps/02_Chainettes.png" target="_blank">
                     <img src="./img/steps/02_Chainettes.png" width="100%" />
                   </a>
+                  <div style="background-color: rgb(250, 253, 253);background: rgba(250, 253, 253, 1)">
+                      <img src="./img/croquis/0.png" style="display: block;margin-left: auto;margin-right: auto;margin-top: auto;width: 30%;opacity: 0.6;"/>
+                  </div>
                 </div>
               </div>
             </div>
@@ -407,10 +418,11 @@
                           de la courbe. 
                       </p>
                     </div>
+                    <img src="./img/croquis/2.png" style="display: block;margin-left: 0;margin-right: auto;margin-top: 1em;width: 30%;opacity: 0.6;"/>
                   </div>
                   <div class="col-12 col-lg-6" style="background-color: white">
                     <a href="./img/steps/03_Divisions.png" target="_blank">
-                      <img src="./img/steps/03_Divisions.png" width="100%" />
+                      <img src="./img/steps/03_Divisions.png" width="100%"/>
                     </a>
                   </div>
               </div>
@@ -428,7 +440,7 @@
                     <div class="title-desc">
                       <h3 class="display-decor display-title">Création des liens</h3>
                       <p class="desc-decor">
-                          Les 4  listes de points obtenues sont ensuite décaléees 
+                          Les 4  listes de points obtenues sont ensuite décalées 
                           de façon croissante d’un arc à l’autre pour que les 
                           liens tracés  soient diagonaux. Puis des arcs sont 
                           dessinés entre les chaînettes 1 et 2, 2 et 3 et 3 et 4 
@@ -436,8 +448,9 @@
                           l’outil arc permet de régler la courbure des liens.<br/>
                           On fait ensuite les liens dans l’autre diagonale de 
                           la même façon. Ce coup ci les listes de points sont 
-                          décalées négativement et l’ordre des listes est inversé.
+                          décalées de façon décroissante et l’ordre des listes est inversé.
                       </p>
+                      <img src="./img/croquis/3.png" style="display: block;margin-left: 0;margin-right: auto;margin-top: 1em;width: 30%;opacity: 0.6;"/>
                     </div>
                   </div>
                   <div class="col-12 col-lg-6" style="background-color: white">
@@ -464,6 +477,7 @@
                           pour paramétrer l’épaisseur des chaînettes et des liens.
                       </p>
                     </div>
+                    <img src="./img/croquis/4.png" style="display: block;margin-left: 0;margin-right: auto;margin-top: 1em;width: 60%;opacity: 0.7;"/>
                   </div>
                   <div class="col-12 col-lg-6" style="background-color: white">
                     <a href="./img/steps/05_Pipe.png" target="_blank">
@@ -524,14 +538,17 @@
           <div class="section-content fullwidth anim text-left">
             <!-- main content -->
             <div class="row justify-content-between">
-              <div class="col-12 col-md-8 col-lg-6 text-left center-v" style="margin-left: 5em">
+              <div class="col-12 col-md-8 col-lg-6 text-left center-v" style="padding-left: 5em">
                 <div class="f-wrapper">
                   <!-- title and description -->
                   <div class="title-desc">
                     <div class="anim-2">
                       <h2 class="display-4 display-title display-decor">Paramétrique</h2>
-                      <p class="desc-decor">Certaines caractéristiques du pavillon sont modifiables à partir des sliders qui leur correspondent,
-                          comme par exemple les deux points aux extrêmités des chaînettes, ou le nombre de liens qui les relient.</p>
+                      <p class="desc-decor">Certaines caractéristiques du pavillon 
+                        sont modifiables à partir de sliders, comme par exemple 
+                        la portée des arcs en modifiant l'écartement des points, 
+                        ou encore le nombre de liens qui joignent les chainettes.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -552,12 +569,9 @@
         <div class="slide-footer section-footer footer-register">
           <div class="form-desc">
             <span class="text">
-              Un projet de 
-              <a href="http://www.lyon.archi.fr/fr/joan-casanelles" target="_blank">
-                É. Lefebvre
-              </a> & 
-              <a href="http://www.lyon.archi.fr/fr/benjamin-chavardes" target="_blank">
-                C. Ciprelli
+              Un projet de É. Lefebvre & C. Ciprelli encadré par 
+              <a href="http://www.lyon.archi.fr/fr//fr/kevin-jacquot" target="_blank">
+                K. Jacquot
               </a>
             </span>
           </div>          
